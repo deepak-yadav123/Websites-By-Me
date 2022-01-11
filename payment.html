@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment-Form</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body{
+            text-align: centre;
+            font-size: 1.2em;
+            font-family: 'Anahein';
+        }
+        #outside{
+            background-color: lightgoldenrodyellow;
+            padding-top: 25px;
+            padding-bottom: 25px;
+        }
+        h1{
+    background-color: #120fe8b9;
+    text-align: center;
+    background
+}
+    </style>
+</head>
+<body  class="container">
+    <form class="mc">
+    <h1 class="des"><b>Payment Form To Apni Kaksha</b></h1>
+    <fieldset>
+        <legend class="des">Personal Details</legend><div class="one">
+       <div> <label for="name" id="name-label">Name : </label>
+       <input type="text" name="name" placeholder="Enter Your Name"></div><br>
+       <div>
+           <label for="addres">Address : </label>
+           <input type="text" name="address" placeholder="Enter Your Address">
+       </div><br>
+       <div> <label for="email" id="email-label">Email : </label>
+        <input type="email" name="email" placeholder="Enter Your Email"></div><br>
+        <div> <label for="phoneno" id="phoneno-label">Mobile No : </label>
+            <input type="number" name="phoneno" placeholder="Enter Your 10 Digit Mobile No"></div><br>
+            <div> <label for="gender" id="gender-label">Gender : </label><br>
+                <input type="radio" name="gender" value="male" checked >Male<br>
+                <input type="radio" name="gender" value="female"  >Female<br>
+                <input type="radio" name="gender" value="tmale"  >Transgender</div><br>
+                <div> <label for="payoption" id="name-label">Payment Method : </label><br>
+                    <input type="radio" name="payoption" value="Visa" checked>Visa<br>
+                    <input type="radio" name="payoption" value="Visa" >Mastercard<br>
+                    <input type="radio" name="payoption" value="Visa" >Rupay<br>
+                    <input type="radio" name="payoption" value="Visa" >RazaorPay</div><br>
+
+    </fieldset></div><br>
+   <fieldset>
+      <legend class="des">Payment Method</legend><div class="one">
+      <h3 style="color: blue;" ba>Payee Details</h3>
+      <input type="text" placeholder="Name as On Card"><br><br>
+      <input type="number" placeholder="Enter Your Mobile No"><br><br>
+      <input type="text" placeholder="Email-id"><br>
+      <h3 style="color: blue;">Card Details</h3>
+      <input type="number" placeholder="Card Number"><br><br>
+      <input type="date" placeholder="Expiry Date">&nbsp;&nbsp;
+      <input type="password" placeholder="CVV"><br><br>
+      <input style="color: rgb(247, 247, 247);" type="submit" value="Proceed To Pay" >
+     </div><br>
+    </fieldset><br>
+    </form>
+</body>
+</html>

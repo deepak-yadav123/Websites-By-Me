@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    .flex{
+        display: flex;
+        flex-direction: row;
+        flex-flow: row;
+        background-color:rgb(255, 255, 255);
+      
+        row-gap: 20px;
+        column-gap: 20px;
+        justify-content: center;
+        align-items: center;
+        
+    
+    }
+    #flex-1{
+       background-color: coral;
+       color: cornsilk;
+    }
+    .container{
+        display: flex;
+    }
+    .container div{
+        padding: 10px;
+        flex-grow: 1;
+        background-color: red;
+        margin: 3px;
+        border-radius: 5px;
+        color: blanchedalmond;
+        font-size: large;
+    }
+    .flex div{ 
+        display: flex;
+        background-color: black;
+        color: blanchedalmond;
+        flex-grow: 1;
+    }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div>1
+        <div class="flex">
+            <div class="dabba">1</div>
+            <div class="dabba">2</div>
+            <div class="dabba">3</div></div>
+            <div class="flex">
+            <div class="dabba">1</div>
+            <div class="dabba">2</div>
+            <div class="dabba">3</div>
+            <div class="dabba">4</div>
+           </div>
+           <div class="flex">
+            <div class="dabba">1</div>
+            <div class="dabba">2</div>
+            <div class="dabba">3</div>
+            <div class="dabba">4</div>
+            <div class="dabba">5</div>
+            </div></div>
+
+            <div>2</div>
+            <div>3</div>
+        </div>
+        <div class="container">
+          
+            <div>Dabba 1</div>
+            <div >Dabba 2</div>
+            <div >Dabba 3</div>
+            <div >Dabba 4</div></div>
+
+ <div class="container">
+           
+        <div>Dabba 1</div>
+        <div>Dabba 2</div>
+        <div>Dabba 3</div>
+        <div>Dabba 4</div>
+        <div>Dabba 5</div>
+     
+    </div>
+</body>
+</html>

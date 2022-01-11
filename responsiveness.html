@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            text-align: center;
+            box-sizing: border-box;
+        }
+        .main-box{
+            background-color: rgba(210, 105, 30,0.726);
+            padding: 5px;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif+;
+    
+            overflow: hidden;
+            box-shadow: .4em .4em 2em;
+        }
+        .box{
+            float: left;
+            background-color: rgba(225, 225, 225,0.685);;
+        }
+        @media screen and (min-width:1008px) {
+            .box{
+                width: 16.66%;
+                height: 50px;
+                font-size: 20px;
+                border: 2px solid white;
+                padding: 15px;
+            }
+            
+        }
+        @media screen and (max-width:1007px) and (min-width:641px){
+            .box{
+                width: 33.33%;
+                height: 50px;
+                font-size: 20px;
+                border: 2px solid white;
+                padding: 15px;
+            }
+            
+        }
+        @media screen and (max-width:640px){
+            .box{
+                width: 100%;
+                height: 50px;
+                font-size: 20px;
+                border: 2px solid white;
+                padding: 15px;
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="main-box">
+    <h1 class="heading">Subjects In S.Y GCOEJ</h1>
+        <div class="box">OOP</div>
+        <div class="box">DELD</div>
+        <div class="box">DGST</div>
+        <div class="box">FDSP</div>
+        <div class="box">ETC</div>
+        <div class="box">PSP</div>
+    </div>
+</body>
+</html>
